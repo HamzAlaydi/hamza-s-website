@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from "react";
-
 import {
   CarouselButton,
   CarouselButtonDot,
@@ -67,9 +66,8 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established
-        developers to take their development skills to the next level and build
-        awesome apps.
+        Never stop developing my skills, in love with explore new libraries and
+        technologies
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

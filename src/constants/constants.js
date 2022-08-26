@@ -43,9 +43,18 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  {
+    year: 2018,
+    text: "Start studying Software Development at the IUG university",
+  },
+  { year: 2019, text: "Start With Basics Logic Java Language" },
+  { year: 2020, text: "Start Learning Basics HTML, CSS, SCSS, JavaScript" },
+  {
+    year: 2021,
+    text: "Join Five-Months full-time boot camp MERN_Stack course",
+  },
+  {
+    year: 2022,
+    text: "Work for Dash company as React.js Developer, now I work for RealSoft Advanced Applications as Web Developer",
+  },
 ];
