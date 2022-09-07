@@ -5,39 +5,44 @@ export const projects = [
 
     image:
       "https://camo.githubusercontent.com/474d335a5cf3e5478aec8963ef45645b187c3a7d630159308507de4a810a0dba/68747470733a2f2f7777772e636f7272616469746f626961732e636f6d2e61722f696d672f776f726b2f30392f30352e6a7067",
-    tags: ["Mongo", "Express", "React", "Node"],
+    tags: ["React", "Firebase"],
     source: "https://disney-clone-git-master-hamzalaydi.vercel.app",
     visit: "https://github.com/HamzAlaydi/disney-clone",
     id: 0,
   },
+  // edits
   {
     title: "E-Commerce",
-    description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    description: `Next Js Ecommerce with all Ecommerce functionality and amazing style
+    Tools:
+    1- Sanity (amazing backend tool to handle database schema, make it super easy to apply CRUD
+    operations and much more)
+    2- Stripe (payment method
+    3- React icons, canvas-confetti, react-hot-toaste`,
     image: "/images/2.png",
-    tags: ["React", "JavaScript"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    tags: ["Next", "Sanity", "Stripe"],
+    source: "https://happy-shpo.vercel.app",
+    visit: "https://github.com/HamzAlaydi/happy-shop",
     id: 1,
   },
+  // {
+  //   title: "WebRTC App",
+  //   description:
+  //     "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+  //   image: "/images/3.jpg",
+  //   tags: ["React", "WebRTC"],
+  //   source: "https://google.com",
+  //   visit: "https://google.com",
+  //   id: 2,
+  // },
   {
-    title: "WebRTC App",
+    title: "Messenger Chat",
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: "/images/3.jpg",
-    tags: ["React", "WebRTC"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 2,
-  },
-  {
-    title: "Unichat",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+      "Full chat app built using ChatEngine.io, This is a code repository, sadly the ChatEngine.io library now paid so i can't share the project link only the source code ",
     image: "/images/4.jpg",
     tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    source: "https://github.com/HamzAlaydi/chatapp",
+    visit: "https://github.com/HamzAlaydi/chatapp",
     id: 3,
   },
 ];

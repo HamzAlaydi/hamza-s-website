@@ -42,7 +42,10 @@ const Projects = () => (
           </div>
           <UtilityList>
             <ExternalLinks href={project.visit}>Code</ExternalLinks>
-            <ExternalLinks href={project.source}>Source</ExternalLinks>
+            <ExternalLinks href={project.source}>
+              {" "}
+              {project.id == 3 ? "ChatEngine paid can't view the page" : "View"}
+            </ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}
